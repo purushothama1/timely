@@ -1,0 +1,8 @@
+## WARNING ##
+# The following code is architected by DevOps experts or under the supervision of DevOps experts, which can make or break Build and Deployments. Accordingly, we at PeerXP insist that you donot attempt to change or re-create any activity in this code.
+
+# Please contact support@peerxp.com for any changes.
+## WARNING ##
+
+include:
+   remote: https://config.vegaops.com/codewave/timely_bk/pwslab.yml

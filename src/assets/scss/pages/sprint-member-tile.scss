@@ -1,0 +1,219 @@
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Load variable overrides
+@import "../core/variables/variables";
+@import "~bootstrap/scss/_variables.scss";
+
+// Overrides user variable
+@import "../core/variables/components-variables";
+
+
+.card-div{
+    background-color: #F8F8F8;
+    height: 400px;
+}
+
+.card-head-wrap{
+    padding: 2rem;
+}
+
+.card-heading-main{
+    padding-bottom: 0.5rem;
+    color: #0B0C1F;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+.card-head-date{
+    width: 50%;
+    float: left;
+    color: #0B0C1F;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 3px;
+    letter-spacing: 0;
+    border-right: 1px solid #DAE1E7;
+}
+
+.view-all-sprints{
+    width: 50%;
+    float: left;
+    padding-left: 1rem;
+    color: #111BDD;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.progress-status-div{
+    width: 50%;
+    float: left;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+.remaining-task-details{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 0.5rem 1.5rem;
+    border-top: 1px solid #D9D5D5;
+}
+
+.team-members-details-head{
+    width: 60%;
+    float: left;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 1.5rem 1.5rem;
+}
+
+.manage-team{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 1.5rem;
+    color: #111BDD;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-left: 0;
+}
+
+.task-remaining-wrap{
+    width: 80%;
+    float: left;
+}
+
+.team-member-avatar{
+    // width: 25%;
+    float: left;
+    padding-top: 10px;
+}
+
+.member-avatar-task{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.member-availabity-details{
+    // width: 75%;
+    float: left;
+    text-align: left;
+    padding: 1rem 0px;
+}
+
+.member-not-assigned{
+    width: 20%;
+    float: left;
+    text-align: right;
+    opacity: 0.5;
+    margin: 1rem 0;
+    color: #131313;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.task-details-tile{
+    width: 100%;
+    float: left;
+    background-color: #eaecf2;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.member-details-tile{
+    width: 100%;
+    float: left;
+    background-color: #eaecf2;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.task-name-div{
+    color: #0B0C1F;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.task-details-div{
+    color: #0B0C1F;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0;
+    float: left;
+    width:100%;
+}
+
+.member-avatar-task .avatar {
+    [class*="avatar-status-"] {
+        width: 15px;
+        height: 15px;
+        right: 0;
+        top: 0;
+      }
+}
+
+.team-member-avatar .avatar {
+    [class*="avatar-status-"] {
+        width: 15px;
+        height: 15px;
+        right: 0;
+        top: 0;
+      }
+}
+
+.task-card-body-style{
+    padding: 0.5rem;
+    overflow-y: scroll;
+}
+
+.member-role-title{
+    color: #0b0c1f6b;
+    font-size: 16px;
+    float: left;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-right: 1rem;
+    border-right: 1px solid #0b0c1f2e;
+}
+
+.member-availability-div{
+    float: left;
+    color: #0B0C1F;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-left: 1rem;
+}
+
+.contact-icon{
+width: 20%;
+}
+
+.contact-icon-wrap{
+    float: right;
+    // padding: 1rem 1.5rem 0 0;
+    padding-top: 10px;
+}
+
+.sprint-member-tile-wrap{
+    margin-top: 2rem;
+}

@@ -1,0 +1,153 @@
+.cnps-leftWrapper {
+  background-color: white;
+  padding: 20px;
+  font-family: "Avenir";
+  height: 447px;
+}
+.cnps-leftTop {
+  padding: 20px;
+
+  background-color: #f1f3f9;
+}
+.cnps-leftBottom {
+  padding: 20px;
+
+  margin-top: 20px;
+  background-color: #fefae9;
+}
+
+.cnps-rightWrapper {
+  padding: 20px;
+  //   margin-left: 25px;
+  font-family: "Avenir";
+  background-color: white;
+  min-height: 100%;
+}
+
+.cnps-rightBody {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.cnps-heading {
+  font-size: 18px;
+  font-weight: 900;
+  color: #0b0c1f;
+}
+
+.cnps-subhead {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0b0c1f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cnps-email-wrapper {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+  color: #0b0c1f;
+  margin-bottom: 10px;
+}
+.cnps-icon {
+  margin-right: 14px;
+}
+.cnps-topheading {
+  font-size: 18px;
+  font-weight: 900;
+  color: #0b0c1f;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cnps-rightHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.cnps-right-infowrapper {
+  display: flex;
+  //   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.right-info-head {
+  color: #0b0c1f;
+  opacity: 80%;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.right-info-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b0c1f;
+}
+.rating-icon-wrapper {
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cpns-ratingdiv {
+  margin-bottom: 24px;
+}
+.rating-icon {
+  &:last-child {
+    margin-right: 0px;
+  }
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  //   background-color: teal;
+  padding: 0px;
+  border-radius: 50%;
+  padding: 3px;
+  display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+}
+.cnps-area-impwrap {
+  display: flex;
+  align-items: center;
+}
+.cnps-area-div {
+  color: #0b0c1f;
+  margin-right: 15px;
+  background-color: #b7c3df;
+  border-radius: 20px;
+  padding: 2px 8px;
+  margin-top: 5px;
+}
+.cnps-right-infowrap {
+  margin-bottom: 20px;
+}
+.cnps-right-boldtext {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0b0c1f;
+}
+
+.enps-chart-container {
+  padding: 30px 40px;
+  width: 1083px;
+  max-width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+.apexcharts-yaxis-label-text {
+  font-family: "Avenir" !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0 !important;
+  line-height: 22px !important;
+  text-align: right !important;
+}
+
+.apexcharts-xaxis-label-text {
+  font-family: "Avenir" !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0 !important;
+  line-height: 52px !important;
+}

@@ -1,0 +1,144 @@
+/*=========================================================================================
+    File Name: sidebar.scss
+    Description: content sidebar specific scss.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy React Admin Template
+    Version: 1.0
+    Author: PIXINVENT
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+
+
+// Sidebar base
+// ------------------------------
+
+// Base
+.sidebar {
+    position: relative;
+    width: 100%;
+
+    // For desktop only
+    @include media-breakpoint-up(lg){
+        // display: table-cell;
+        vertical-align: top;
+        // width: $sidebar-width;
+    }   
+}
+.sidebar-fixed{
+    position: fixed;
+    height: 100%;
+    overflow: scroll;
+}
+
+.sidenav-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 997;
+    display: none;
+}
+
+.drag-target {
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    left:-10px;
+    z-index: 1036;
+}
+
+@include media-breakpoint-up(lg){
+    .sidebar-left{
+        float:left;
+    }
+    .sidebar-right{
+        float:right;
+    }
+}
+
+//puru
+.main-menu.menu-light .navigation
+{
+    background: none !important;
+    padding-top: 30px !important;
+}
+.main-menu.menu-light .navigation > li ul .active > a {
+    color: #0b0c1f !important;
+}
+.main-menu.menu-light .navigation li a
+{
+    color: #f1f1f1 !important;
+}
+.main-menu.menu-light .navigation li a
+{
+    border-radius: 6px;
+    //  background-color: #1D4CC4;
+}
+.vertical-layout .main-menu.theme-primary .navigation .nav-item.active a
+{
+    background: #F9CA24 !important;
+
+}
+.vertical-layout .main-menu.theme-primary .navbar-header .navbar-nav .brand-text
+{
+    color: #F1F1F1 !important;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.main-menu.menu-light .navigation > li.open > a, .main-menu.menu-light 
+.navigation > li.sidebar-group-active > a, .main-menu.menu-light .navigation >
+ li ul.menu-content .sidebar-group-active > a, .main-menu.menu-light .navigation >
+  li ul.menu-content .open > a
+  {
+      background: #1e8fe1 !important;
+  }
+
+  .main-menu.menu-light .navigation > li > ul {
+    background: #1e8fe1 !important;
+    border-radius: 6px;
+}
+.main-menu.menu-light .navigation li.has-sub ul.menu-content
+{
+    margin: 0px !important;
+    padding:0px !important;
+}
+
+.main-menu.menu-light .navigation li a {
+    color: #f3f3f3;
+    padding: 10px 15px;
+    line-height: 1.45;
+    transition: padding 0.35s ease 0s !important;
+}
+
+.main-menu.menu-light .navigation .navigation-header span {
+    font-weight: 900 !important;
+}
+
+.data-list .rdt_Table .rdt_TableBody .rdt_TableRow
+{
+    color:#0b0c1f !important;
+}
+
+.header-navbar .navbar-container ul.nav li a.dropdown-user-link .user-name
+{
+    margin-bottom: 0rem !important; 
+}
+
+data-list-header d-flex justify-content-between .flex-wrap
+{
+    padding-top: 20px !important;
+}
+
+// .vertical-layout .main-menu.theme-primary .navigation .nav-item .menu-content li.active 
+// .menu-content a
+// {
+// background-color: #0B2E86 !important;
+// }

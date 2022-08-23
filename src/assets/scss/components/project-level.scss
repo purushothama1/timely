@@ -1,0 +1,240 @@
+$color-danger-dark: #ef3a4a;
+$color-danger-light: #fd6448;
+$color-warning-medium: #f6981d;
+$color-success-light: #5ce340;
+$color-success-dark: #168948;
+
+.healthindicator {
+  // opacity: 0.1;
+  border-radius: 1px;
+  background-color: #e0e4ed;
+  padding: 15px 10px 10px 10px;
+  .orghealthtext {
+    color: #0b0c1f;
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+  }
+  .div0 {
+    height: 14px;
+    width: 47px;
+    border-radius: 7px;
+    margin-right: 18px;
+    margin-bottom: 5px;
+  }
+  .div1 {
+    background-color: $color-danger-dark;
+  }
+  .div2 {
+    background-color: $color-danger-light;
+  }
+  .div3 {
+    background-color: $color-warning-medium;
+  }
+  .div4 {
+    background-color: $color-success-light;
+  }
+  .div5 {
+    background-color: $color-success-dark;
+  }
+  .healthrightdiv {
+    display: flex;
+  }
+
+  .projectlevelhead {
+    color: #000000;
+    font-family: Avenir;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+
+  .data-list .cus_datalist {
+    .healthpercentage {
+      color: #0b0c1f;
+      font-family: Avenir;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 16px;
+      padding-left: 5px;
+    }
+  }
+}
+.uncontrolled-tooltip-hr {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 10px;
+}
+.toolhr {
+  width: 100%;
+  height: 1px;
+  padding-bottom: 10px;
+}
+
+.text-font{
+  font-weight: 500;
+}
+
+
+::-webkit-scrollbar {
+  height: 4px; /* height of horizontal scrollbar ← You're missing this */
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+  &-track {
+    border-radius: 0;
+    background: #eeeeee;
+  }
+  &-thumb {
+    // border-radius: 0px;
+    border-radius: 20px;
+    background: #b0b0b0;
+  }
+}
+
+.main-menu.menu-fixed{
+  display: block !important ;
+}
+
+.react-tooltip-hr {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.projectleveltable .header {
+  display: none !important;
+}
+
+.healthpercentage {
+  color: #0b0c1f;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16px;
+  padding-left: 5px;
+}
+
+.projectleveltable .data-list header {
+  display: none !important;
+}
+.projectleveltable .lbDrAm {
+  display: none !important;
+}
+
+.projectleveltable {
+  width: 100%;
+  float: left;
+}
+
+.orgleveltable {
+  width: 100%;
+  float: left;
+  padding-top: 30px;
+}
+.orgleveltable .lbDrAm {
+  display: none !important;
+}
+
+.projectleveltable .rdt_TableHeadRow {
+  display: none !important;
+}
+//  .orgleveltable .rdt_TableCol_Sortable:nth-child(1)
+//  {
+//     color: #000000;
+//     font-family: Avenir;
+//     font-size: 22px;
+//     font-weight: 900;
+//     letter-spacing: 0;
+//     line-height: 30px;
+//  }
+.__react_component_tooltip {
+  padding: 8px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.22);
+  z-index: 1 !important;
+  left: 66%;
+  top: 188px;
+  width: 16%;
+}
+.healthtable {
+  width: 100%;
+  color: #333;
+}
+
+.orgpercent {
+  float: left;
+}
+.total {
+  color: #fd6448;
+}
+// .__react_component_tooltip::after
+// {
+//     color: #fff;
+// }
+
+.editsection {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.editsection img {
+  padding-right: 8px;
+}
+.actionsec {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.projectleveltable .rdt_Table {
+  padding: 0px !important;
+}
+.orghealth {
+  border: none;
+}
+
+.plkpadding {
+  padding-top: 30px;
+}
+.creatsubmit {
+  text-align: center;
+}
+
+.__react_component_tooltip {
+  width: 20%;
+}
+.tooltiptable tr td {
+  padding-bottom: 15px;
+}
+.tooltiptabletr {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.bg-danger-dark {
+  background-color: $color-danger-dark !important;
+}
+
+.bg-danger-light {
+  background-color: $color-danger-light !important;
+}
+
+.bg-danger-warn {
+  background-color: $color-warning-medium !important;
+}
+
+.bg-success-light {
+  background-color: $color-success-light !important;
+}
+
+.bg-success-dark {
+  background-color: $color-success-dark !important;
+}
+
+.tooltip-inner
+{
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 5%) !important;
+}

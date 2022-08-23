@@ -1,0 +1,316 @@
+.modal .modal-header{
+    display: block;
+}
+
+.modal-header-coustom{
+    text-align: center;
+}
+
+.modal .modal-header .close{
+    bottom: 24px;
+}
+
+.modal .modal-header .close span{
+    color: #000;
+}
+
+.status-body-class{
+    color: #2C2C2C;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.available-div-class{
+    color: #FF7B64;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 19px;   
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modal-footer {
+    position: relative;
+    border-top: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.okay-button{
+    width: 31%;
+    background-color: #1D4CC4 !important;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+
+.commendable-effort{
+    color: #0B0C1F;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.completed-status-body-class{
+    color: #6D6D79;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+
+.known-route-div-wrap{
+    cursor: pointer;
+    height: 80px;
+    float: right;
+    border-radius: 3px;
+    background-color: #FFBA55;
+    box-shadow: 0 2px 6px 2px rgba(197, 197, 197, 0.38);
+    padding: 15px 20px 15px 20px;
+}
+
+.known-route-div{
+    color: #FFFFFF;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding-top: 10px;
+}
+
+.new-route-div{
+    color: #FFBA55;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding-top: 6px;
+    font-size: 11px;
+}
+
+.new-route-div-wrap{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #FFBA55;
+    border-radius: 3px;
+    padding: 19px 20px 10px 20px;
+}
+
+.duration-div{
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.duration-input-div{
+    width: 100%;
+    float: left;
+    padding: 5px 60px 10px 60px;
+}
+
+.select-peer-div{
+    width: 100%;
+    float: left;
+    padding: 20px 60px 10px 60px;
+}
+
+#basicInput{
+    border: 1px solid #979797 !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+}
+
+#basicInput::-webkit-input-placeholder {
+    text-align: center;
+    color: #6D6D79;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    }
+    #basicInput:-moz-placeholder { /* Firefox 18- */
+    text-align: center; 
+    text-align: center;
+    color: #6D6D79;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px; 
+    }
+    #basicInput::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+    text-align: center;
+    color: #6D6D79;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    }
+    #basicInput:-ms-input-placeholder {  
+    text-align: center; 
+    text-align: center;
+    color: #6D6D79;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    }
+
+    .send-karma-points{
+        color: #2C2C2C;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    @media (min-width: 576px){
+        .modal-dialog {
+            max-width: 550px;
+        }}
+
+    .textarea-optional-div{
+        width: 100%;
+        float: left;
+        padding: 10px 60px;
+    }
+
+    #exampleText::-webkit-input-placeholder {
+        color: #6D6D79;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 16px;
+        }
+
+    #exampleText{
+        border: 1px solid #979797;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        }
+
+    .select-peer-div .css-yk16xz-control{
+        border: 1px solid #979797;
+    }
+
+    .go-back-div{
+        position: absolute;
+        top: 25%;
+        left: 8%;
+        color: #FF7B64;
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 19px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .predict-header{
+        color: #0B0C1F;
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+
+    .conservative-div{
+        color: #2C2C2C;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .optimistic{
+        width: 70%;
+        float: right;
+        border: 1px solid #979797;
+        border-radius: 3px;
+    }
+
+    .conservative{
+        width: 70%;
+        float: left;
+        border: 1px solid #979797;
+        border-radius: 3px;
+    }
+
+.optimistic::-webkit-input-placeholder {
+    color: #6D6D79;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    }
+
+.conservative::-webkit-input-placeholder {
+    color: #6D6D79;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    }
+
+.predict-button{
+    background-color: #FF7B64 !important;
+    width: 31%;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+
+.calender-icon-left{
+    position: absolute;
+    right: 25px;
+    top: 9px;
+}
+
+.calender-icon-right{
+    position: absolute;
+    right: 99px;
+    top: 9px;
+}
+
+.predicted-date-div{
+    color: #123796;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.try-again-div{
+    color: #FF7B64;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}

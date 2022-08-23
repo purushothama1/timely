@@ -1,0 +1,49 @@
+.about-company-wrapper {
+  background: #fff;
+  font-family: "Avenir";
+  padding: 20px 36px;
+}
+.about-c-img {
+  width: 100%;
+}
+.about-c-img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.adis-text {
+  font-size: 12px;
+  color: #0b0c1f;
+  opacity: 80%;
+  font-weight: 500;
+  margin-top: 14px;
+}
+.aboutComp-boldText {
+  font-size: 15px;
+  font-weight: 900;
+  color: #0b0c1f;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  opacity: 80%;
+}
+.aboutComp-boldText2 {
+  font-size: 15px;
+  font-weight: 900;
+  color: #0b0c1f;
+  opacity: 80%;
+  margin-top: 8px;
+}
+.aboutComp-normText {
+  color: #0b0c1f;
+  //   font-size: 15px;
+  opacity: 80%;
+}
+
+.aboutCompany-head {
+  color: #000000;
+  font-family: Avenir;
+  font-size: 17px;
+  font-weight: 900;
+}

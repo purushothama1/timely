@@ -1,0 +1,105 @@
+.revenue-wrapper {
+  position: relative;
+}
+.revenue-bodyleft {
+  background-color: #fff;
+  padding: 20px;
+  //   min-height: 435px;
+}
+
+.revenue-infodiv {
+  background-color: #fefae9;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+.project-infodiv {
+  background-color: #f1f3f9;
+  padding: 16px 20px;
+}
+.revenue-bodyright {
+  background-color: #fff;
+  padding: 20px;
+  height: 100%;
+}
+.rev-heading {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Avenir";
+  color: #000000;
+  margin-bottom: 10px;
+}
+.rev-heading2 {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Avenir";
+  color: #000000;
+}
+.rev-subText {
+  color: #0b0c1f;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 60%;
+}
+.rev-boldText {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Avenir";
+  max-width: 40%;
+  text-align: right;
+}
+.rev-tex-div {
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+  // flex-wrap: wrap;
+}
+.spe {
+  margin-bottom: 10px;
+}
+
+.rev-monthSelect {
+  background-color: #f8f8f8;
+  border: 1px solid #c8c8c8;
+  font-size: 14px;
+  color: #0b0c1f;
+  padding: 5px;
+  border-radius: 4px;
+}
+.rev-monthSelect:focus-visible {
+  outline: none;
+}
+.revenue-chart-text {
+  position: absolute;
+  right: 23px;
+  bottom: 34px;
+}
+
+.revenue-chart-text1 {
+  opacity: 0.8;
+  color: #0b0c1f;
+  font-family: Avenir;
+  font-size: 10px;
+  font-weight: 500;
+}
+.revenue-chart-text2 {
+  margin-left: 20px;
+  color: #0b2e86;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .revenue-chart-text {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .revenue-chart-text1 {
+    font-size: 12px;
+  }
+  .revenue-bodyright {
+    padding-bottom: 50px;
+  }
+}
